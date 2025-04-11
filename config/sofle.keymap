@@ -43,6 +43,11 @@
             bindings = <&kp ESCAPE>;
             key-positions = <25 41>;
         };
+
+        zmk_studio_unlock {
+            bindings = <&studio_unlock>;
+            key-positions = <53 56 17>;
+        };
     };
 
     behaviors {
