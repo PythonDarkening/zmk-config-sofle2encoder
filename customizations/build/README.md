@@ -51,6 +51,8 @@ The following image is an example of how the Keymap Editor interface looks.
 - [Lily58 Wireless](https://github.com/KeyboardHoarders/zmk-config-lily58)
 - [Allium58](https://github.com/KeyboardHoarders/zmk-config-allium58)
 
+----
+
 2 . While signed in to your GitHub account, fork the repository corresponding to your keyboard.
 
 <details>
@@ -59,6 +61,8 @@ The following image is an example of how the Keymap Editor interface looks.
 ![fork_repo](../img/build_steps/fork_repo.png)
 
 </details>
+
+----
 
 3 . Navigate to your newly forked repository and click on the Actions tab.
 
@@ -69,6 +73,8 @@ The following image is an example of how the Keymap Editor interface looks.
 
 </details>
 
+----
+
 4 . Click the button labeled "I understand my workflows".
 
 <details>
@@ -78,6 +84,7 @@ The following image is an example of how the Keymap Editor interface looks.
 
 </details>
 
+----
 
 5 . From the top-left menu, select `.github/workflows/build.yml`.
 
@@ -88,6 +95,8 @@ The following image is an example of how the Keymap Editor interface looks.
 
 </details>
 
+----
+
 6 . Select Run workflow, then choose Use workflow from Branch: master, and click `Run workflow` to execute the process.
 
 <details>
@@ -96,6 +105,8 @@ The following image is an example of how the Keymap Editor interface looks.
 ![run_workflow](../img/build_steps/run_workflow.png)
 
 </details>
+
+----
 
 7 . Return to `All workflows` under the `Actions` tab and wait for the workflow to complete successfully (It will turn green or blue upon completion, depending on the theme you have selected).
 
@@ -111,6 +122,7 @@ Complete this step first, and once the workflow finishes successfully (green), y
 
 </details>
 
+----
 
 8 . Once the workflow completes successfully (status turns green), it means your configuration compiled without errors.
 
@@ -137,12 +149,15 @@ Follow these steps:
 
 </details>
 
+----
 
 9 . This will reload the page and display a user-friendly interface where you can start customizing your keymap as needed.
 
 **Important**: I do not recommend spending a long time making extensive changes right away. 
 For example, if you want to experiment with macros, start by adding a single macro, save your changes, and compile.
 If the build succeeds, you can confidently proceed with additional changes.
+
+----
 
 10 . Click the Save button at the top of the page, then select Commit when the confirmation dialog appears.
 
@@ -154,6 +169,7 @@ If the build succeeds, you can confidently proceed with additional changes.
 
 </details>
 
+----
 
 11 . Return to your GitHub repository and navigate to the Actions tab. You should see a new workflow automatically running.
 
@@ -167,6 +183,8 @@ it means all changes have successfully compiled without errors.
 
 </details>
 
+----
+
 12 . Select the completed workflow highlighted above within the red box. Then, download the generated ZIP file and extract its contents.
 
 <details>
@@ -175,9 +193,10 @@ it means all changes have successfully compiled without errors.
 ![download_build](../img/build_steps/download_build.png)
 
 </details>
- 
 
-14 . For the next steps, ensure that both halves of the keyboard remain powered on throughout the entire process.
+----
+
+13 . For the next steps, ensure that both halves of the keyboard remain powered on throughout the entire process.
 
 1 . Start by plugging in the left half of the keyboard. <br>
 2 . Once connected, press the physical reset button twice — this button is located next to the on/off slide switch. <br> 
