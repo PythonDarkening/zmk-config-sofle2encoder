@@ -210,6 +210,28 @@ it means all changes have successfully compiled without errors.
 
 </details>
 
+5 . Next, unplug the left half of the keyboard and connect the right half. Once connected, press the physical reset button twice to enter bootloader mode. <br>
+6 . Drag and drop the same settings_reset file (highlighted in the green box) into the directory of the right half of the keyboard. <br>
+7 . Now plug the left half of the keyboard back in. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;7.1 If your keyboard has displays, drag and drop the sofle_left-nice_view file (highlighted in the red box) into the directory. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;7.2 If your keyboard does not have displays, use the sofle_left-nice_nano file instead. <br>
+8 . Next, unplug the left half of the keyboard and connect the right half. Press the reset button twice to enter bootloader mode. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;8.1 If your keyboard has displays, drag and drop the sofle_right-nice_view file (highlighted in the red box) into the directory. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;8.2 If your keyboard does not have displays, use the sofle_right-nice_nano file instead. <br>
+9 . Next, on your computer or device, navigate to your Bluetooth settings and locate the list of previously paired devices. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;9.1 Look for a Sofle device — it may appear as not connected or it might briefly show as connected before disconnecting. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;9.2 Remove (forget/delete) this device from your Bluetooth list to clear the previous pairing information. <br>
+
+<details>
+  <summary>Click to expand</summary>
+
+![forget_this_device](../img/build_steps/forget_this_device.png)
+
+</details>
+
+
+10 . Finally, pair the keyboard as a new device from your Bluetooth settings. <br>
+
 ----
 
 # References
