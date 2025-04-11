@@ -118,10 +118,10 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&trans  &trans    &trans     &trans     &trans  &trans                    &trans    &trans        &trans     &trans  &trans   &trans
-&trans  &trans    &trans     &trans     &trans  &trans                    &trans    &kp UP_ARROW  &trans     &trans  &trans   &trans
-&trans  &kp LALT  &kp LCTRL  &kp LSHFT  &trans  &trans                    &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &kp DEL  &kp BSPC
-&trans  &trans    &trans     &trans     &trans  &trans  &trans    &trans  &kp CLCK  &trans        &trans     &trans  &trans   &trans
+&trans  &trans    &trans     &trans     &trans  &trans                    &trans    &trans        &trans     &trans  &kp LG(EQUAL)  &trans
+&trans  &trans    &trans     &trans     &trans  &trans                    &trans    &kp UP_ARROW  &trans     &trans  &kp LG(MINUS)  &trans
+&trans  &kp LALT  &kp LCTRL  &kp LSHFT  &trans  &trans                    &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &kp DEL        &kp BSPC
+&trans  &trans    &trans     &trans     &trans  &trans  &trans    &trans  &kp CLCK  &kp SPACE     &trans     &trans  &trans         &trans
                   &trans     &trans     &trans  &trans  &trans    &trans  &trans    &trans        &trans     &trans
             >;
 
